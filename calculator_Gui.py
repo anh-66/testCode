@@ -7,6 +7,7 @@ ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
 # gRPC connection
+#----------------------------Sua Sua---------------------------
 channel = grpc.insecure_channel("localhost:50051")
 stub = calculator_pb2_grpc.CalculatorStub(channel)
 
